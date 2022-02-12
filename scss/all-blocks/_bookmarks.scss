@@ -1,12 +1,16 @@
 .bookcard {
   display: flex;
   flex-direction: row;
+  border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
 }
 
 .bookmark {
   width: 268px;
   padding: 25px;
   padding-left: 0;
+  // border-left: 1px solid #e5e5e5;
+  border-right: 1px solid #e5e5e5;
 
   &__heading {
     margin: 0;
@@ -38,6 +42,7 @@
   }
 
   &__item {
+    width: 218px;
     list-style: none;
   }
 
@@ -50,6 +55,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    width: 218px;
     background-color: rgba(248, 250, 253, 1);
     border-radius: 4px;
     padding: 15px 10px;
@@ -61,6 +68,7 @@
   }
 
   &__box-heading {
+    max-width: 110px;
     margin: 0;
     margin-bottom: 5px;
     padding: 0;
@@ -89,10 +97,14 @@
   }
 
   &__box-link {
+    position: relative;
+    flex-shrink: 0;
     margin-right: 8px;
   }
 
   &__box-deletebtn {
+    position: relative;
+    flex-shrink: 0;
     background: transparent;
     border: transparent;
     padding: 0;

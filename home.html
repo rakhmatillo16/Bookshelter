@@ -9,6 +9,7 @@
     <title>Bookshelter</title>
   </head>
   <body>
+    <div class="overlayy"></div>
     <!-- HEADER -->
     <header class="header">
       <div class="header__container container">
@@ -41,6 +42,7 @@
     <!-- MAIN  -->
 
     <main class="main">
+      <!-- HERO SECTION  -->
       <section class="hero">
         <h2 class="visually-hidden">site hero</h2>
         <div class="hero__container container">
@@ -55,9 +57,12 @@
         </div>
       </section>
 
+      <!-- BOOKCARD SECTION  -->
+
       <section class="bookcard container">
         <h2 class="visually-hidden">bookmarks and cards</h2>
 
+        <!-- BOOKMARK SECTION  -->
         <section class="bookmark">
           <h3 class="bookmark__heading">Bookmarks</h3>
           <p class="bookmark__desc">
@@ -65,271 +70,43 @@
           </p>
 
           <ul class="bookmark__list">
-            <li class="bookmark__item">
-              <div class="bookmark__box">
-                <div class="bookmark__box-left">
-                  <h3 class="bookmark__box-heading">Phyton</h3>
-                  <p class="bookmark__box-desc">David M. Beazley</p>
-                </div>
+            <template class="bookmark-template">
+              <li class="bookmark__item">
+                <div class="bookmark__box">
+                  <div class="bookmark__box-left">
+                    <h3 class="bookmark__box-heading">Phyton</h3>
+                    <p class="bookmark__box-desc">David M. Beazley</p>
+                  </div>
 
-                <div class="bookmark__box-right">
-                  <a href="#" class="bookmark__box-link"
-                    ><img
-                      src="./images/book_link.png"
-                      alt="link for reading book"
-                      width="24"
-                      height="24"
-                  /></a>
-                  <button class="bookmark__box-deletebtn">
-                    <img
-                      src="./images/bookmark-delete.png"
-                      alt="a buuton delating for bookmarks"
-                      width="24"
-                      height="24"
-                    />
-                  </button>
+                  <div class="bookmark__box-right">
+                    <a href="#" target="_blank" class="bookmark__box-link"
+                      ><img
+                        src="./images/book_link.png"
+                        alt="link for reading book"
+                        width="24"
+                        height="24"
+                    /></a>
+                    <button class="bookmark__box-deletebtn">
+                      <img
+                        src="./images/bookmark-delete.png"
+                        alt="a buuton delating for bookmarks"
+                        width="24"
+                        height="24"
+                      />
+                    </button>
+                  </div>
                 </div>
-              </div>
-            </li>
-            <li class="bookmark__item">
-              <div class="bookmark__box">
-                <div class="bookmark__box-left">
-                  <h3 class="bookmark__box-heading">Phyton</h3>
-                  <p class="bookmark__box-desc">David M. Beazley</p>
-                </div>
-
-                <div class="bookmark__box-right">
-                  <a href="#" class="bookmark__box-link"
-                    ><img
-                      src="./images/book_link.png"
-                      alt="link for reading book"
-                      width="24"
-                      height="24"
-                  /></a>
-                  <button class="bookmark__box-deletebtn">
-                    <img
-                      src="./images/bookmark-delete.png"
-                      alt="a buuton delating for bookmarks"
-                      width="24"
-                      height="24"
-                    />
-                  </button>
-                </div>
-              </div>
-            </li>
-            <li class="bookmark__item">
-              <div class="bookmark__box">
-                <div class="bookmark__box-left">
-                  <h3 class="bookmark__box-heading">Phyton</h3>
-                  <p class="bookmark__box-desc">David M. Beazley</p>
-                </div>
-
-                <div class="bookmark__box-right">
-                  <a href="#" class="bookmark__box-link"
-                    ><img
-                      src="./images/book_link.png"
-                      alt="link for reading book"
-                      width="24"
-                      height="24"
-                  /></a>
-                  <button class="bookmark__box-deletebtn">
-                    <img
-                      src="./images/bookmark-delete.png"
-                      alt="a buuton delating for bookmarks"
-                      width="24"
-                      height="24"
-                    />
-                  </button>
-                </div>
-              </div>
-            </li>
-            <li class="bookmark__item">
-              <div class="bookmark__box">
-                <div class="bookmark__box-left">
-                  <h3 class="bookmark__box-heading">Phyton</h3>
-                  <p class="bookmark__box-desc">David M. Beazley</p>
-                </div>
-
-                <div class="bookmark__box-right">
-                  <a href="#" class="bookmark__box-link"
-                    ><img
-                      src="./images/book_link.png"
-                      alt="link for reading book"
-                      width="24"
-                      height="24"
-                  /></a>
-                  <button class="bookmark__box-deletebtn">
-                    <img
-                      src="./images/bookmark-delete.png"
-                      alt="a buuton delating for bookmarks"
-                      width="24"
-                      height="24"
-                    />
-                  </button>
-                </div>
-              </div>
-            </li>
-            <li class="bookmark__item">
-              <div class="bookmark__box">
-                <div class="bookmark__box-left">
-                  <h3 class="bookmark__box-heading">Phyton</h3>
-                  <p class="bookmark__box-desc">David M. Beazley</p>
-                </div>
-
-                <div class="bookmark__box-right">
-                  <a href="#" class="bookmark__box-link"
-                    ><img
-                      src="./images/book_link.png"
-                      alt="link for reading book"
-                      width="24"
-                      height="24"
-                  /></a>
-                  <button class="bookmark__box-deletebtn">
-                    <img
-                      src="./images/bookmark-delete.png"
-                      alt="a buuton delating for bookmarks"
-                      width="24"
-                      height="24"
-                    />
-                  </button>
-                </div>
-              </div>
-            </li>
-            <li class="bookmark__item">
-              <div class="bookmark__box">
-                <div class="bookmark__box-left">
-                  <h3 class="bookmark__box-heading">Phyton</h3>
-                  <p class="bookmark__box-desc">David M. Beazley</p>
-                </div>
-
-                <div class="bookmark__box-right">
-                  <a href="#" class="bookmark__box-link"
-                    ><img
-                      src="./images/book_link.png"
-                      alt="link for reading book"
-                      width="24"
-                      height="24"
-                  /></a>
-                  <button class="bookmark__box-deletebtn">
-                    <img
-                      src="./images/bookmark-delete.png"
-                      alt="a buuton delating for bookmarks"
-                      width="24"
-                      height="24"
-                    />
-                  </button>
-                </div>
-              </div>
-            </li>
-            <li class="bookmark__item">
-              <div class="bookmark__box">
-                <div class="bookmark__box-left">
-                  <h3 class="bookmark__box-heading">Phyton</h3>
-                  <p class="bookmark__box-desc">David M. Beazley</p>
-                </div>
-
-                <div class="bookmark__box-right">
-                  <a href="#" class="bookmark__box-link"
-                    ><img
-                      src="./images/book_link.png"
-                      alt="link for reading book"
-                      width="24"
-                      height="24"
-                  /></a>
-                  <button class="bookmark__box-deletebtn">
-                    <img
-                      src="./images/bookmark-delete.png"
-                      alt="a buuton delating for bookmarks"
-                      width="24"
-                      height="24"
-                    />
-                  </button>
-                </div>
-              </div>
-            </li>
-            <li class="bookmark__item">
-              <div class="bookmark__box">
-                <div class="bookmark__box-left">
-                  <h3 class="bookmark__box-heading">Phyton</h3>
-                  <p class="bookmark__box-desc">David M. Beazley</p>
-                </div>
-
-                <div class="bookmark__box-right">
-                  <a href="#" class="bookmark__box-link"
-                    ><img
-                      src="./images/book_link.png"
-                      alt="link for reading book"
-                      width="24"
-                      height="24"
-                  /></a>
-                  <button class="bookmark__box-deletebtn">
-                    <img
-                      src="./images/bookmark-delete.png"
-                      alt="a buuton delating for bookmarks"
-                      width="24"
-                      height="24"
-                    />
-                  </button>
-                </div>
-              </div>
-            </li>
-            <li class="bookmark__item">
-              <div class="bookmark__box">
-                <div class="bookmark__box-left">
-                  <h3 class="bookmark__box-heading">Phyton</h3>
-                  <p class="bookmark__box-desc">David M. Beazley</p>
-                </div>
-
-                <div class="bookmark__box-right">
-                  <a href="#" class="bookmark__box-link"
-                    ><img
-                      src="./images/book_link.png"
-                      alt="link for reading book"
-                      width="24"
-                      height="24"
-                  /></a>
-                  <button class="bookmark__box-deletebtn">
-                    <img
-                      src="./images/bookmark-delete.png"
-                      alt="a buuton delating for bookmarks"
-                      width="24"
-                      height="24"
-                    />
-                  </button>
-                </div>
-              </div>
-            </li>
-            <li class="bookmark__item">
-              <div class="bookmark__box">
-                <div class="bookmark__box-left">
-                  <h3 class="bookmark__box-heading">Phyton</h3>
-                  <p class="bookmark__box-desc">David M. Beazley</p>
-                </div>
-
-                <div class="bookmark__box-right">
-                  <a href="#" class="bookmark__box-link"
-                    ><img
-                      src="./images/book_link.png"
-                      alt="link for reading book"
-                      width="24"
-                      height="24"
-                  /></a>
-                  <button class="bookmark__box-deletebtn">
-                    <img
-                      src="./images/bookmark-delete.png"
-                      alt="a buuton delating for bookmarks"
-                      width="24"
-                      height="24"
-                    />
-                  </button>
-                </div>
-              </div>
-            </li>
+              </li>
+            </template>
           </ul>
         </section>
 
+        <!-- CARD SECTION  -->
         <section class="card">
+          <h3 class="visually-hidden">cards</h3>
           <ul class="card__list"></ul>
+
+          <!-- CARD TEMPLATE  -->
           <template class="card-template">
             <li class="card__item">
               <a href="#" class="card__img-link">
@@ -346,12 +123,11 @@
                 <p class="card__desc">David M. Beazley</p>
                 <p class="card__year">2009</p>
               </div>
-
               <div class="card__buttons">
                 <button class="card__bookmark">
-                  <p class="card__btn-desc">Bookmark</p>
+                  <p class="card__btn-bookmark">Bookmark</p>
                 </button>
-                <button class="card__more-info">
+                <button type="button" class="card__more-info">
                   <p class="card__btn-desc">More Info</p>
                 </button>
                 <a class="card__read" href="#" target="_blank"
@@ -360,7 +136,66 @@
               </div>
             </li>
           </template>
+
+          <!-- BUTTONS FOR PREVIUS AND NEXT BUTTONS -->
+          <div class="page-btn">
+            <button class="page-btn__prev">
+              <img
+                src="./images/prev-btn.png"
+                alt="button for previus page"
+                width="12"
+                height="8"
+              />
+            </button>
+            <button class="page-btn__next">
+              <img
+                src="./images/next-btn.png"
+                alt="button for next page"
+                width="12"
+                height="8"
+              />
+            </button>
+          </div>
         </section>
+
+        <!-- MODAL SECTION  -->
+      </section>
+      <section class="modal hidden">
+        <div class="modal__box">
+          <div class="modal__header">
+            <h2 class="modal__heading">Python</h2>
+            <button class="modal__exit">
+              <img
+                src="./images/exit.png"
+                alt="exit img"
+                width="15"
+                height="15"
+              />
+            </button>
+          </div>
+
+          <img
+            class="modal__img"
+            src="./images/book-img.png"
+            alt="book img"
+            width="229"
+            height="300"
+          />
+
+          <p class="modal__desc">
+            Culpa nulla pariatur cupidatat nisi incididunt ea do ipsum.
+            Incididunt quis mollit elit commodo cillum eiusmod reprehenderit
+            labore irure. Cillum et incididunt et nostrud exercitation quis aute
+            laboris non ut adipisicing. Laboris ad minim aute nulla proident
+            deserunt velit anim sunt aliquip ut sit. Exercitation aliquip
+            ullamco officia non aliqua. Sint deserunt aliquip veniam id eiusmod
+            sit consectetur mollit ea aliqua officia consequat. Magna non mollit
+            nisi est commodo voluptate aute id. Deserunt nostrud id do in nisi
+            mollit deserunt non. Pariatur fugiat cillum irure elit sint nisi ad
+            ipsum culpa deserunt cupidatat esse consequat laboris. Id aliquip
+            non consectetur esse proident duis Lorem.
+          </p>
+        </div>
       </section>
     </main>
 
