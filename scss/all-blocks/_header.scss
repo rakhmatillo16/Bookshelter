@@ -1,0 +1,45 @@
+.header {
+  padding: 11px 0;
+
+  &__logo-link {
+    margin-right: 56px;
+  }
+
+  &__logo-link:hover {
+    opacity: 0.8;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__search {
+    text-align: center;
+    border: transparent;
+    margin-right: 109px;
+    background-color: #f8fafd;
+    color: black;
+    border-radius: 30px;
+    width: 670px;
+    height: 48px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  &__logout {
+    position: relative;
+    margin-left: auto;
+    color: #fff;
+    background-color: #0d75ff;
+    border-radius: 4px;
+    padding: 10px 23px;
+  }
+
+  &__logout:hover {
+    opacity: 0.8;
+  }
+}

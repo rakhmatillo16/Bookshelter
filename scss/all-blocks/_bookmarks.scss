@@ -1,0 +1,100 @@
+.bookcard {
+  display: flex;
+  flex-direction: row;
+}
+
+.bookmark {
+  width: 268px;
+  padding: 25px;
+  padding-left: 0;
+
+  &__heading {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+  }
+
+  &__desc {
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 155.6%;
+    color: #000000;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    list-style: none;
+  }
+
+  &__item + &__item {
+    margin-top: 15px;
+  }
+
+  &__box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(248, 250, 253, 1);
+    border-radius: 4px;
+    padding: 15px 10px;
+  }
+
+  &__box-left {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__box-heading {
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  &__box-desc {
+    margin: 0;
+    padding: 0;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #757881;
+  }
+
+  &__box-right {
+    display: flex;
+    align-items: center;
+  }
+
+  &__box-link {
+    margin-right: 8px;
+  }
+
+  &__box-deletebtn {
+    background: transparent;
+    border: transparent;
+    padding: 0;
+  }
+}

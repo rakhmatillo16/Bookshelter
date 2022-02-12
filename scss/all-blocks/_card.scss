@@ -1,0 +1,117 @@
+.card {
+  width: 951px;
+  padding-top: 40px;
+  padding-left: 39px;
+  background-color: #f8fafd;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    margin: 0;
+    padding: 0px;
+    list-style: none;
+  }
+
+  &__item {
+    background-color: #fff;
+    width: 282px;
+    margin-bottom: 33px;
+    padding: 13px 16px;
+  }
+
+  //   &__img-link {
+  //     // padding: 18px 14px;
+  //     background-color: #f8fafd;
+  //     // margin-bottom: 19px;
+  //   }
+
+  &__img {
+    width: 201px;
+    height: 202px;
+    background-color: #f8fafd;
+    margin: 18px 14px;
+  }
+
+  &__info {
+    margin-top: 19px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__heading {
+    margin: 0;
+    padding: 0;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+
+  &__desc {
+    margin: 2px 0;
+    padding: 0;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #757881;
+  }
+
+  &__year {
+    margin: 0;
+    padding: 0;
+    font-family: Noto Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #757881;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__bookmark {
+    padding: 10px 23px;
+    border-radius: 5px;
+    border: transparent;
+    background-color: #ffd80d;
+    color: black;
+    margin-right: 6px;
+  }
+
+  &__more-info {
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: transparent;
+    background-color: rgba(13, 117, 255, 0.05);
+    color: rgba(13, 117, 255, 1);
+  }
+
+  &__read {
+    margin-top: 5px;
+    border: transparent;
+    padding: 10px 105px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgba(117, 130, 138, 1);
+    color: #fff;
+  }
+
+  &__btn-desc {
+    margin: 0;
+    padding: 0;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

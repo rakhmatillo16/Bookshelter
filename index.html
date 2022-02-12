@@ -1,12 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./images/logo-icon.svg" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Bookshelter</title>
+  </head>
+  <body class="login-body">
+    <div class="login-body__container container">
+      <img
+        class="login-body__logo"
+        src="./images/login-logo.svg"
+        alt="login entrance logo"
+        width="226px"
+        height="44px"
+      />
+      <form class="form" type="post">
+        <input
+          class="form__username"
+          type="text"
+          name="username"
+          placeholder="USERNAME"
+        />
+        <input
+          class="form__password"
+          type="password"
+          name="password"
+          placeholder="PASSWORD"
+        />
 
-</body>
+        <button class="form__button" type="submit">LOGIN</button>
+
+        <a class="form__link" href="#">
+          <p class="form__forgot">Forgot password?</p></a
+        >
+      </form>
+    </div>
+
+    <script src="./js/login.js"></script>
+  </body>
 </html>
