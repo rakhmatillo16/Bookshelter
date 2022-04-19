@@ -67,7 +67,7 @@ const renderBookmark = function (arr, element) {
   });
 };
 
-// GET BOOK FUNCTION FOR DETTIN BOOKS FROM API
+// GET BOOK FUNCTION FOR GETTIN BOOKS FROM API
 let getBooks = async function () {
   const response = await fetch(
     `https://www.googleapis.com/books/v1/volumes?q=${search}&startIndex=${page}`
@@ -88,7 +88,7 @@ let getBooks = async function () {
 
 getBooks();
 
-// PREV BUTTON FOR GOING TO PREVIUS PAGE
+// PREV BUTTON FOR GOING TO PREVIOUS PAGE
 
 elPrevBtn.addEventListener("click", function () {
   elCardList.innerHTML = null;
